@@ -1,1 +1,0 @@
-window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.41.22450.0%0D%0A%0D%0A00:00:00.096%20--%3E%2000:00:05.619%0D%0AWhat%20is%20it%20called%20when%20you,%20in%20your%20own%20words,%20use%20an%20author\u0027s%20ideas%20in%20your%20paper?%0D%0A%0D%0A"}')

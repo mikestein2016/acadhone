@@ -1,1 +1,0 @@
-window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.41.22450.0%0D%0A%0D%0A00:00:00.048%20--%3E%2000:00:06.722%0D%0ATrue%20or%20False:%20It%E2%80%99s%20okay%20to%20get%20help%20from%20an%20HCC%20tutor%20when%20you%20are%20writing%20a%20paper.%0D%0A%0D%0A"}')
