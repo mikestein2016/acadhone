@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.41.22450.0%0D%0A%0D%0A00:00:00.032%20--%3E%2000:00:05.050%0D%0AIf%20you%20wrote%20an%20essay%20for%20a%20different%20class,%20can%20you%20use%20it%20in%20your%20English%20class,%20too?%0D%0A%0D%0A"}')

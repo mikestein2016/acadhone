@@ -86,6 +86,13 @@
           <option name="bottombar_enabled" value="true" />
         </options>
       </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
     </optiongroups>
   </control_options>
   <control_layouts>
@@ -1129,6 +1136,17 @@
           </color>
         </group_colors>
       </color_group>
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
     </colorscheme>
   </colorschemes>
   <string_tables>
@@ -1197,10 +1215,6 @@
         <slidelink slideid="_player.6cW9DfMPpTu.6oXjKlNvxjz" displaytext="We need to write a paper" expand="false" type="slide" />
         <slidelink slideid="_player.6cW9DfMPpTu.5sIuRR57U5X" displaytext="Watch the Video" expand="false" type="slide" />
         <slidelink slideid="_player.6cW9DfMPpTu.6Y8686iSuzz" displaytext="Check your knowledge!" expand="false" type="slide" />
-        <slidelink slideid="_player.6cW9DfMPpTu.5fwZgX8bUg7" displaytext="Using information for a paper" expand="false" type="slide" />
-        <slidelink slideid="_player.6cW9DfMPpTu.64sbjvndIJm" displaytext="Paper for a different class" expand="false" type="slide" />
-        <slidelink slideid="_player.6cW9DfMPpTu.5vKnBPDDmiM" displaytext="Translation software" expand="false" type="slide" />
-        <slidelink slideid="_player.6cW9DfMPpTu.5wMAoHQmyqU" displaytext="Help from tutors" expand="false" type="slide" />
         <slidelink slideid="_player.6cW9DfMPpTu.6axI4nfsDys" displaytext="What is academic honesty?" expand="false" type="slide" />
         <slidelink slideid="_player.6cW9DfMPpTu.6iEBAuX7GyW" displaytext="Can you ever use outside sources?" expand="false" type="slide" />
         <slidelink slideid="_player.6cW9DfMPpTu.5Yodc5ZM525" displaytext="What is plagiarism?" expand="false" type="slide" />
@@ -1210,10 +1224,10 @@
         <slidelink slideid="_player.6cW9DfMPpTu.6kEEsjFXZKa" displaytext="You Try!" expand="false" type="slide" />
         <slidelink slideid="_player.6cW9DfMPpTu.6EZwRnEdO0v" displaytext="What are Citations?" expand="false" type="slide" />
         <slidelink slideid="_player.6cW9DfMPpTu.6ncFF17L5wq" displaytext="What are In-Text Citations?" expand="false" type="slide" />
-        <slidelink slideid="_player.6cW9DfMPpTu.5n7ehCZKthY" displaytext="How do you USE information?" expand="false" type="slide" />
+        <slidelink slideid="_player.6cW9DfMPpTu.6TevxGV9oOZ" displaytext="How do you USE information?" expand="false" type="slide" />
         <slidelink slideid="_player.6cW9DfMPpTu.6Bm9xfjr8Lz" displaytext="Direct Quote vs. Paraphrasing" expand="false" type="slide" />
-        <slidelink slideid="_player.6cW9DfMPpTu.6dlgpGqcG63" displaytext="You Try!" expand="false" type="slide" />
-        <slidelink slideid="_player.6cW9DfMPpTu.5uL2r4oo58F" displaytext="Citing with In-Text Citations" expand="false" type="slide" />
+        <slidelink slideid="_player.6cW9DfMPpTu.5dNIeKchHWw" displaytext="You Try!" expand="false" type="slide" />
+        <slidelink slideid="_player.6cW9DfMPpTu.5ewCTqWYM01" displaytext="Let's Review" expand="false" type="slide" />
         <slidelink slideid="_player.6cW9DfMPpTu.5qF3nEA4OBK" displaytext="What have you learned?" expand="false" type="slide" />
         <slidelink slideid="_player.6cW9DfMPpTu.5VhwcIt2saE" displaytext="Congratulations!" expand="false" type="slide" />
       </links>
@@ -1229,7 +1243,134 @@
   </resource_data>
   <transcript_data>
     <slidetranscripts>
-      <slidetranscript slideid="6cW9DfMPpTu.6VxB2BifyBZ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6cW9DfMPpTu.6JCoUFrAnUg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Welcome to this presentation on academic honesty.&amp;#xD;&amp;#xD;To move through the presentation, click the Next button in the lower right-hand corner of the screen.&amp;#xD;&amp;#xD;If you’d like to review a specific topic, click on that topic name in the menu on the left-hand navigation." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.6oXjKlNvxjz" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="We need to write a paper for English class.  We know that academic honesty is important, but we’re not sure what that is.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="Open Sans" FontSize="9" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="#FFFFFF" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="Blue"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Well, then you should watch the video on the next page. It’s about academic honesty."&gt;
+        &lt;Style FontFamily="Open Sans" FontSize="9" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="#FFFFFF" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="Blue"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.6Y8686iSuzz" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="What do you already know about academic honesty? Click the Let’s Go! button, and we’ll find out." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.5fwZgX8bUg7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="True or False: It’s okay to use other people’s information in your essay if you name the source." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.64sbjvndIJm" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="True or False: It’s okay to turn in a paper that you wrote for a different class." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.5vKnBPDDmiM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="True or False: It’s okay to write a paper in your native language and use software to translate it into English. " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.5wMAoHQmyqU" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="True or False: It’s okay to get help from an HCC tutor when you are writing a paper." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.6axI4nfsDys" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Academic honesty means that any work that you turn in with your name on it is truly and honestly your own work.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="No cheating, no copying, no buying work off the Internet, no reusing a paper you wrote for another class, no translating passages with software, and no plagiarizing." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.6iEBAuX7GyW" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="So, can you ever use outside sources for your work?&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Yes! Sometimes you will be required to use outside sources in your work.&amp;#xD; &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="In your classes, you will learn ways to include outside sources in your work without plagiarizing.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="In the meantime, don’t use outside sources unless it is part of your assignment." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.5Yodc5ZM525" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Plagiarism means using someone else’s words or ideas as if they were your own, either intentionally or unintentionally.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Plagiarism includes cutting and pasting an author’s words, copying an author’s words without quotation marks and the author’s name, changing the author’s words around without giving him or her credit." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.6QoNngqy7Oj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Plagiarism is a very serious offense in all academic institutions, including HCC.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="It can affect your paper’s grade, your course grade, and your academic record." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.6VxB2BifyBZ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Span Text="You know plagiarism is wrong, so how can you use someone else’s idea in your paper without plagiarizing?&amp;#xA;" /&gt;
@@ -1252,7 +1393,7 @@
     &lt;Block /&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6cW9DfMPpTu.6D1Zs91HJEk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6cW9DfMPpTu.6D1Zs91HJEk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Span Text="This is the abstract, or summary, of an academic journal article similar to those you may want to use in the papers you write. &amp;#xA;" /&gt;
@@ -1335,7 +1476,7 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6cW9DfMPpTu.6kEEsjFXZKa" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6cW9DfMPpTu.6kEEsjFXZKa" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
@@ -1390,7 +1531,7 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6cW9DfMPpTu.6F91MRMyDBa" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6cW9DfMPpTu.6F91MRMyDBa" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
@@ -1445,7 +1586,7 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6cW9DfMPpTu.5bylIb3XHKz" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6cW9DfMPpTu.5bylIb3XHKz" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
@@ -1484,7 +1625,7 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6cW9DfMPpTu.5iNhrjnidcA" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6cW9DfMPpTu.5iNhrjnidcA" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
@@ -1531,7 +1672,7 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6cW9DfMPpTu.66jiJSy0pdM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6cW9DfMPpTu.66jiJSy0pdM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
@@ -1623,7 +1764,7 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6cW9DfMPpTu.6EZwRnEdO0v" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6cW9DfMPpTu.6EZwRnEdO0v" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
@@ -1699,7 +1840,7 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6cW9DfMPpTu.6ncFF17L5wq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6cW9DfMPpTu.6ncFF17L5wq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
@@ -1721,7 +1862,7 @@
       &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
         &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
       &lt;/Style&gt;
-      &lt;Span Text="Notice that when you use an in-text citation, you don’t include ALL of the information from the article. That’s because an in-text citation serves to provide your readers with a reference to your works cited page at the end of your paper where they can find the full citation. &amp;#xA;"&gt;
+      &lt;Span Text="Notice that when you use an in-text citation, you don’t include ALL of the information from the article. That’s because an in-text citation serves to provide your readers with a reference to your bibliography or works cited page at the end of your paper where they can find the full citation. &amp;#xA;"&gt;
         &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
       &lt;/Span&gt;
     &lt;/Block&gt;
@@ -1743,13 +1884,19 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6cW9DfMPpTu.5n7ehCZKthY" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6cW9DfMPpTu.6TevxGV9oOZ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
         &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
       &lt;/Style&gt;
-      &lt;Span Text="This is just an example of how you will need to organize source information when citing sources. You can learn HOW to use MLA or APA style by using some of the resources in the resources tab. &amp;#xA;"&gt;
+      &lt;Span Text="This is just an example of how you will need to organize source information when citing sources. You can learn HOW to use MLA or APA style by using some of the resources in the "&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="Resources "&gt;
+        &lt;Style FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="tab. &amp;#xA;"&gt;
         &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
       &lt;/Span&gt;
     &lt;/Block&gt;
@@ -1815,7 +1962,7 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6cW9DfMPpTu.6Bm9xfjr8Lz" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6cW9DfMPpTu.6Bm9xfjr8Lz" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
@@ -1849,7 +1996,7 @@
       &lt;Span Text="paraphrasing does not need quotation marks"&gt;
         &lt;Style FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
       &lt;/Span&gt;
-      &lt;Span Text=" because the information was put in the writers own words, instead of using the author’s. &amp;#xA;"&gt;
+      &lt;Span Text=" because the information was put in the writer’s own words, instead of using the author’s. &amp;#xA;"&gt;
         &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
       &lt;/Span&gt;
     &lt;/Block&gt;
@@ -1893,7 +2040,7 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6cW9DfMPpTu.6dlgpGqcG63" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6cW9DfMPpTu.5dNIeKchHWw" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
@@ -1971,13 +2118,13 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6cW9DfMPpTu.6bCJAU2kbVv" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6cW9DfMPpTu.5oyVOBd6U8J" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
         &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
       &lt;/Style&gt;
-      &lt;Span Text="The student read the text and interpreted the idea into her own words. &amp;#xA;"&gt;
+      &lt;Span Text="That’s right! The student read the text and interpreted the idea into her own words. &amp;#xA;"&gt;
         &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
       &lt;/Span&gt;
     &lt;/Block&gt;
@@ -2041,7 +2188,7 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="6cW9DfMPpTu.5uL2r4oo58F" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6cW9DfMPpTu.6BVGt85Rkvd" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" CustomTabStops="" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
@@ -2066,6 +2213,112 @@
       &lt;Span Text="In this example, we have highlighted the correct format for the in-text citation for APA style."&gt;
         &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" /&gt;
       &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.5ewCTqWYM01" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Let's review. How can you avoid plagiarizing?&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Cite your sources, both in the text and in your bibliography. This includes ANY source that is not your original work.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="In-text citations typically include the author’s last name, year of publication, and/or page number.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="You must cite the source, whether you paraphrase or directly quote their words.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="APA and MLA are two of the acceptable styles for citations. Ask your instructor which you should use.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="We cite sources not only to avoid plagiarizing, but because it can help us and our reader to locate the original source of the text or idea.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="There are consequences if you plagiarize, whether intentionally or inadvertently, so remember to cite your sources, and ask for help if you need it." /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.5qF3nEA4OBK" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="26">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="What have you learned about academic honesty?" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.608LmAwUIMq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="27">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Can you ever use information from the Internet in your essay?" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.641GOt9mpNF" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="28">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Do you get a zero if you did not INTEND to plagiarize?" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.65cpiXu0p5C" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="29">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="What is it called when you, in your own words, use an author's ideas in your paper?&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block /&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.6J4Bdw3WoKH" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="30">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Is it okay to use Google Translate when you write essays for your class?" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.6fMra7ditks" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="31">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="What happens if you plagiarize in an assignment?" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.5g1P290TGdP" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="32">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="If you wrote an essay for a different class, can you use it in your English class, too?" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6cW9DfMPpTu.5VhwcIt2saE" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="33">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Span Text="Congratulations! You now know the importance of academic honesty." /&gt;
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
